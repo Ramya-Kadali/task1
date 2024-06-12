@@ -1,0 +1,23 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+form{
+   text-align: center;
+   color: white;
+}
+body{
+    background-image: url('images/background3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 25px;
+}
+p{
+    text-align: center;
+}

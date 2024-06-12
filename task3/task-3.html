@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="task-3.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="25px" viewBox="0 -960 960 960" width="25px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            <li><h1>Welcome</h1></li>
+        </ul>
+        <ul class="menu">
+            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></svg></svg></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="form3.html">Login</a></li>
+        </ul>
+    </nav> 
+    <h3>Interactive Elements with JavaScript</h3> 
+    <script>
+        function showSidebar(){
+            const menu=document.querySelector('.menu')
+            menu.style.display='flex'
+        }
+        function hideSidebar(){
+            const menu=document.querySelector('.menu')
+            menu.style.display='none'
+        }
+    </script> 
+</body>
+</html>
